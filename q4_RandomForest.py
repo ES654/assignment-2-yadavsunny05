@@ -18,12 +18,12 @@ np.random.seed(42)
 ########### RandomForestClassifier ###################
 
 N = 30
-P = 5
+P = 2
 X = pd.DataFrame(np.random.randn(N, P))
 y = pd.Series(np.random.randint(P, size = N), dtype="category")
 
-for criteria in ['information_gain', 'gini_index']:
-    Classifier_RF = RandomForestClassifier(10, criterion = criteria)
+for criteria in ['entropy', 'gini']:
+    Classifier_RF = RandomForestClassifier(10,criterion = criteria)
     Classifier_RF.fit(X, y)
     y_hat = Classifier_RF.predict(X)
     Classifier_RF.plot()
@@ -36,7 +36,7 @@ for criteria in ['information_gain', 'gini_index']:
 ########### RandomForestRegressor ###################
 
 N = 30
-P = 5
+P = 2
 X = pd.DataFrame(np.random.randn(N, P))
 y = pd.Series(np.random.randn(N))
 
@@ -47,3 +47,15 @@ Regressor_RF.plot()
 print('Criteria :', criteria)
 print('RMSE: ', rmse(y_hat, y))
 print('MAE: ', mae(y_hat, y))
+
+        
+
+
+
+
+#IRIS
+
+
+
+
+

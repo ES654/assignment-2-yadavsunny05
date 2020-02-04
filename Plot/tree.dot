@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<X<SUB>0</SUB> &le; 0.252<br/>entropy = 2.221<br/>samples = 30<br/>value = [9, 3, 7, 7, 4]<br/>class = 0>, fillcolor="#fdf4ee"] ;
+1 [label=<X<SUB>1</SUB> &le; 0.228<br/>entropy = 2.202<br/>samples = 20<br/>value = [4, 2, 7, 3, 4]<br/>class = 2>, fillcolor="#dafaf4"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<X<SUB>1</SUB> &le; -1.075<br/>entropy = 1.95<br/>samples = 13<br/>value = [4, 0, 4, 3, 2]<br/>class = 0>, fillcolor="#ffffff"] ;
+1 -> 2 ;
+3 [label=<entropy = 0.722<br/>samples = 5<br/>value = [0, 0, 4, 0, 1]<br/>class = 2>, fillcolor="#6aecd4"] ;
+2 -> 3 ;
+4 [label=<entropy = 1.406<br/>samples = 8<br/>value = [4, 0, 0, 3, 1]<br/>class = 0>, fillcolor="#fae6d7"] ;
+2 -> 4 ;
+5 [label=<X<SUB>1</SUB> &le; 0.782<br/>entropy = 1.557<br/>samples = 7<br/>value = [0, 2, 3, 0, 2]<br/>class = 2>, fillcolor="#d7faf3"] ;
+1 -> 5 ;
+6 [label=<entropy = 0.918<br/>samples = 3<br/>value = [0, 0, 2, 0, 1]<br/>class = 2>, fillcolor="#9cf2e2"] ;
+5 -> 6 ;
+7 [label=<entropy = 1.5<br/>samples = 4<br/>value = [0, 2, 1, 0, 1]<br/>class = 3>, fillcolor="#d3f6bd"] ;
+5 -> 7 ;
+8 [label=<X<SUB>0</SUB> &le; 0.885<br/>entropy = 1.361<br/>samples = 10<br/>value = [5, 1, 0, 4, 0]<br/>class = 0>, fillcolor="#fbeade"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<X<SUB>1</SUB> &le; -0.852<br/>entropy = 0.918<br/>samples = 6<br/>value = [2, 0, 0, 4, 0]<br/>class = 4>, fillcolor="#9e9cf2"] ;
+8 -> 9 ;
+10 [label=<entropy = 0.0<br/>samples = 1<br/>value = [1, 0, 0, 0, 0]<br/>class = 0>, fillcolor="#e58139"] ;
+9 -> 10 ;
+11 [label=<entropy = 0.722<br/>samples = 5<br/>value = [1, 0, 0, 4, 0]<br/>class = 4>, fillcolor="#6d6aec"] ;
+9 -> 11 ;
+12 [label=<X<SUB>0</SUB> &le; 1.03<br/>entropy = 0.811<br/>samples = 4<br/>value = [3, 1, 0, 0, 0]<br/>class = 0>, fillcolor="#eeab7b"] ;
+8 -> 12 ;
+13 [label=<entropy = 0.0<br/>samples = 1<br/>value = [0, 1, 0, 0, 0]<br/>class = 3>, fillcolor="#7be539"] ;
+12 -> 13 ;
+14 [label=<entropy = 0.0<br/>samples = 3<br/>value = [3, 0, 0, 0, 0]<br/>class = 0>, fillcolor="#e58139"] ;
+12 -> 14 ;
+}

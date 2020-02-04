@@ -9,13 +9,13 @@ Q2 b) Timing for LinearRegression(). What is the time complexity of solving line
 Q2 c) Implement LinearRegression() on RealEstate dataset (as done earlier in assignment 1). Use 5-fold cross-validation. Plot the learnt coefficients across the five folds and calculate the train and test MAE across each of the fold. Include code in `linear_regression_realestate.py`
 
 Q3 a) Implement Bagging(BaseModel, num_estimators): where base model could be DecisionTree (or sklearn decision tree) you have implemented. In a later assignment, you would have to implement the above over LinearRegression() also. Edit `ensemble/bagging.py`. Use `q3_Bagging.py` for testing.
-
+    
 Q3 b) Reproduce slides 13 to 17 from ensemble learning lecture. This would involve running Bagging(DecisionTree(), 5) on the dataset shown in lecture slides (real input and discrete output).
 
 Q4 a) Implement RandomForestClassifier() and RandomForestRegressor() classes in `tree/randomForest.py`. Use `q4_RandomForest.py` for testing.
 
 Q4 b) Generate the plots for Iris data set. Fix a random seed of 42. Shuffle the dataset according to this random seed. Use the first 60% of the data for training and last 40% of the data set for testing. Using sepal width and petal width as the two features. Include you code in `random_forest_iris.py`
-
+    
 
 You can answer the subjectve questions (timing analysis, displaying plots) by editing `assignment_q<question-number>_subjective_answers.md`
 
