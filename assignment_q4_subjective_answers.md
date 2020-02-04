@@ -50,4 +50,6 @@ Recall:  1.0
 ![Randof_forest_random_decision Surface_gini](https://user-images.githubusercontent.com/45046442/73745206-7ef73800-4778-11ea-906a-5ea35e34ec0e.png)
 ![Randof_forest_random_decision Surface_info_gain](https://user-images.githubusercontent.com/45046442/73745208-7ef73800-4778-11ea-9337-63041cf5f16b.png)
 
+![IRIS_Random_FOrest_plot](https://user-images.githubusercontent.com/45046442/73745196-7d2d7480-4778-11ea-806d-51a21dc89db3.png)
+![IRIS_RF_final_plot](https://user-images.githubusercontent.com/45046442/73745198-7dc60b00-4778-11ea-9811-d948ed5f46b1.png)
 
