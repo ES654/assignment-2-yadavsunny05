@@ -45,3 +45,9 @@ Precision:  0.85
 Recall:  1.0
 
 
+![Randof_forest_random_decision Surface_ Regression](https://user-images.githubusercontent.com/45046442/73745203-7e5ea180-4778-11ea-88ba-0ea36d4a2f01.png)
+![Randof_forest_random_decision Surface_ Regression_all](https://user-images.githubusercontent.com/45046442/73745205-7e5ea180-4778-11ea-9d2e-fab4bc89431b.png)
+![Randof_forest_random_decision Surface_gini](https://user-images.githubusercontent.com/45046442/73745206-7ef73800-4778-11ea-906a-5ea35e34ec0e.png)
+![Randof_forest_random_decision Surface_info_gain](https://user-images.githubusercontent.com/45046442/73745208-7ef73800-4778-11ea-9337-63041cf5f16b.png)
+
+
